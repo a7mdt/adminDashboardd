@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+html{
+  height: 100%;
+}
+
+body {
+    direction: rtl;
+    background-color: #fff;
+    font-family: "Cairo", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 130px;
+  }
+  
+.thead {
+    background-color: #f2f2f2;
+    height: 55px;
+    font-size: 15px;
+}
+
+.thead th{
+  padding-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.hide,
+.hideO {
+    display: none;
+}
+
+.show,
+.showOpinion {
+    cursor: pointer;
+}
+
+.detail-row,
+.opinion-row {
+    background-color: #e9e7e752;
+}
+
+.detail-row {
+  margin-bottom: 10px;
+}
+
+.solve {
+  font-size: 15px;
+  background-color: #efefef;
+  color: #28a746bd;
+}
+
+.reseve {
+  font-size: 15px;
+  background-color: #efefef;
+  color: #dc3546b9;
+}
+
+.under-review {
+  font-size: 15px;
+    background-color: #efefef;
+    color: #e5ac00;
+}
+
+.solve, .reseve, .under-review {
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
+
+.green-border {
+    border: 2px solid #006400 !important; 
+}
+
+.green-text {
+    color: #006400 !important;
+    font-weight: 900;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #01579B;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-top: 1px solid #e7e7e7;
+  color: #ffffff;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #01579B;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.headerImg {
+  width: 69px;
+  height: 78px;
+}
+
+.headerBtn {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.headerBtn:hover {
+  background-color: #ffffff;
+  color: #01579B;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 856px) {
+  body{
+      direction: ltr;
+  }
+  table, tbody, th, td, tr {
+    display: block;
+  }
+  .thead {
+    display: none;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left; 
+  }
+  th {
+    text-align: right; 
+  }
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #e6e6e6;
+  }
+  td {
+    position: relative;
+    p {
+      width: fit-content;
+    }
+  }
+
+  td:nth-of-type(11) {
+    display: flex;
+    justify-content: flex-start; 
+  }
+
+  td:last-child {
+    border-bottom: none;
+  }
+
+  td:before {
+    position: absolute;
+    top: 5px;
+    right: 6px; 
+    width: 45%;
+    padding-left: 10px; 
+    white-space: nowrap;
+    text-align: right; 
+    font-weight: bold;
+  }
+  td:nth-of-type(1):before {
+    content: "رقم الشكوى";
+  }
+  td:nth-of-type(2):before {
+    content: "نص الشكوى";
+  }
+  td:nth-of-type(3):before {
+    content: "تاريخ الشكوى";
+  }
+  td:nth-of-type(4):before {
+    content: "اسم الموظف";
+  }
+  td:nth-of-type(5):before {
+    content: "رقم هاتف الموظف";
+  }
+  td:nth-of-type(6):before {
+    content: "الكليه و الإداره";
+  }
+  td:nth-of-type(7):before {
+    content: "المهندس المسؤول";
+  }
+  td:nth-of-type(8):before {
+    content: "تاريخ التكليف";
+  }
+  td:nth-of-type(9):before {
+    content: "تاريخ حل الشكوى";
+  }
+  td:nth-of-type(10):before {
+    content: "الملاحظات";
+  }
+  td:nth-of-type(11):before {
+    content: "حالة الشكوى";
+  }
+  .detail-row td {
+    padding-top: 30px;
+  }
+  .detail-row td::before {
+    content: "نص الشكوى";
+  }
+  .opinion-row td {
+    padding-top: 30px;
+  }
+  .opinion-row td::before {
+    content: "الملاحظات";
+  }
+  .footer {
+    font-size: 12px;
+  }
+  .header{
+    direction: rtl;
+  }
+}

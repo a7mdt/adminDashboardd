@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="Styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="Styles/adminDashboard.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="logo.webp" alt="جامعة كفر الشيخ" class="headerImg" />
+      <button class="headerBtn">قراءة التقارير</button>
+    </div>
+    <div style="padding: 0 25px; margin-bottom: 40px">
+      <table class="table">
+        <tbody>
+          <tr class="thead">
+            <th>رقم الشكوى</th>
+            <th>نص الشكوى</th>
+            <th>تاريخ الشكوى</th>
+            <th>اسم الموظف</th>
+            <th>رقم هاتف الموظف</th>
+            <th>الكليه و الإداره</th>
+            <th>المهندس المسؤول</th>
+            <th>تاريخ التكليف</th>
+            <th>تاريخ حل الشكوى</th>
+            <th>الملاحظات</th>
+            <th>حالة الشكوى</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الذكاء الإصطناعي</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="reseve">تم الاستلام</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>الحاسبات والمعلومات</td>
+            <td>
+              <form>
+                <select>
+                  <option value="point" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>5/9/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="under-review">قيد التنفيذ</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="show">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td>11/5/2024</td>
+            <td>احمد طارق</td>
+            <td>01119240091</td>
+            <td>طب الفم و الاسنان</td>
+            <td>
+              <form>
+                <select>
+                  <option value="" disabled selected>..</option>
+                  <option value="ahmed">أحمد طارق</option>
+                  <option value="mohamed">محمد إبراهيم</option>
+                  <option value="ali">علي محمود</option>
+                </select>
+              </form>
+            </td>
+            <td>4/9/2024</td>
+            <td>31/12/2024</td>
+            <td class="showOpinion">
+              عرض
+              <span>&#x25BC;</span>
+            </td>
+            <td><p class="solve">تم الحل</p></td>
+          </tr>
+          <tr class="detail-row hide">
+            <td colspan="11" style="text-align: right">
+              مشكله صعبه للغايه في ظل التطورات التكنولوجيه و المشاكل العصريه
+              التي تواجه الجيل الحالي
+            </td>
+          </tr>
+          <tr class="opinion-row hideO">
+            <td colspan="11" style="text-align: right">
+              انا المشكله
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="footer">
+      <p>
+        تم تطوير نظام تلقي شكاوي الجامعه تحت اشراف
+        <span style="font-weight: 670">أ.م.د / أحمد العشري</span> و فريق عمل من
+        طلاب كليه الحاسبات و المعلومات
+        <span style="font-weight: 670"
+          >أحمد طارق - منه سالم - روان مطر - شهد محمد</span
+        >&nbsp;&nbsp;&copy;
+      </p>
+    </footer>
+  </body>
+  <script src="Scripts/bootstrap.bundle.min.js"></script>
+  <script src="Scripts/adminDashboard.js"></script>
+</html>
